@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title></title>
+    </head>
+    
+    <body>
+        <script>
+        var filterUrl = new RegExp("/", "g");
+        var shortUrl = window.location.pathname.replace(filterUrl, "");
+
+        window.location.href = 'https://video.fuyeor.com/v/' + shortUrl;
+        </script>
+    </body>
+
+</html>
